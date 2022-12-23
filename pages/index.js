@@ -6,7 +6,7 @@ import Card from '../components/Card'
 import InflationIcon from '../assets/icons/turkey.svg'
 import MinorExpensesIcon from '../assets/icons/game.svg'
 import ComfortableRetirementIcon from '../assets/icons/sunshade.svg'
-import TrueSalaryIcon from '../assets/icons/cutting-one.svg'
+import TrueSalaryIcon from '../assets/icons/up-and-down.svg'
 import DailyBudgetIcon from '../assets/icons/wallet.svg'
 
 const colors = {
