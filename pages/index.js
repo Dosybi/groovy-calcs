@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Description from '../components/Description'
 import Card from '../components/Card'
+import Author from '../components/Author'
 
 import InflationIcon from '../assets/icons/turkey.svg'
 import MinorExpensesIcon from '../assets/icons/game.svg'
@@ -78,6 +79,7 @@ export default function Home() {
             return <Card {...calc} key={calc.name} />
           })}
         </div>
+        <Author />
       </main>
     </>
   )
