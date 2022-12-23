@@ -10,12 +10,8 @@ const Card = ({ name, description, link, icon, color }) => {
         <Link href={link}>
           <Icon icon={icon} alt={name} color={color} />
         </Link>
-        <div>
-          <div className="mb-3 text-xl font-bold lg:mt-4 lg:text-xl">
-            {name}
-          </div>
-        </div>
       </div>
+      <div className="mb-2 text-2xl font-bold lg:mt-4 lg:text-xl">{name}</div>
       <div className="mb-4">{description}</div>
       <div className="">
         <Button link={link} label="Открыть" color={color} />
