@@ -65,10 +65,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Калькуляторы для тех, кто не любит таблички в Икселе</title>
+        <title>Калькуляторы для тех, кто не любит таблички в Экселе</title>
         <meta
           name="description"
-          content="Калькуляторы для тех, кто не любит таблички в Икселе"
+          content="Калькуляторы для тех, кто не любит таблички в Экселе"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
