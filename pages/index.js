@@ -10,6 +10,7 @@ import MinorExpensesIcon from '../assets/icons/game.svg'
 import ComfortableRetirementIcon from '../assets/icons/sunshade.svg'
 import TrueSalaryIcon from '../assets/icons/up-and-down.svg'
 import DailyBudgetIcon from '../assets/icons/wallet.svg'
+import UnearnedIcon from '../assets/icons/sofa.svg'
 
 const colors = {
   holly: 'bg-gradient-to-r from-blue-200 to-cyan-200',
@@ -58,6 +59,14 @@ const calcs = [
     link: 'https://daily-budget.vercel.app',
     icon: DailyBudgetIcon,
     color: colors.holly,
+  },
+  {
+    name: 'Сколько вы могли бы заработать, если бы не смотрели сериалы',
+    description:
+      'Калькулятор считает, сколько вы могли бы заработать, если бы посвятили работе всё время, которое уходит на просмотр сериалов.',
+    link: 'https://unearned.vercel.app/',
+    icon: UnearnedIcon,
+    color: colors.gold,
   },
 ]
 
