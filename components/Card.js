@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
-import Button from './Button'
-import Icon from './Icon'
+import Button from './elements/Button'
+import Icon from './elements/Icon'
 
 const Card = ({ name, description, link, icon, color }) => {
   return (
