@@ -21,7 +21,6 @@ export default function Document() {
           sizes="16x16"
           href="/public/favicon-16x16.png"
         />
-        <link rel="manifest" href="/public/site.webmanifest" />
         <link
           rel="mask-icon"
           href="/public/safari-pinned-tab.svg"

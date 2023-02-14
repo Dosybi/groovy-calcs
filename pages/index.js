@@ -5,7 +5,7 @@ import Card from '../components/Card'
 import Author from '../components/Author'
 import Copyright from '../components/Copyright'
 
-import { calcs, description } from '../data'
+import { calcs, description } from '../data/index'
 
 export default function Home() {
   return (

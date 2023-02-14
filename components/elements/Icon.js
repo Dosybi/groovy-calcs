@@ -9,7 +9,7 @@ const Icon = ({ icon, alt, color }) => {
         color
       )}
     >
-      <Image src={icon} width={100} height={100} alt={alt}></Image>
+      <Image src={icon} width={100} alt={alt} className="h-auto w-full" />
     </div>
   )
 }

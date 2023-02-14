@@ -26,7 +26,7 @@ export const calcs = [
       'Как изменился ваш уровень жизни за 10 лет: что вы могли бы купить на зарплату в 2012 и сейчас.',
     link: '/inflation',
     icon: InflationIcon,
-    color: colors.holly,
+    color: 'color-holly',
   },
   {
     name: 'Сколько накопится за год, если отказаться от мелких трат',
@@ -34,7 +34,7 @@ export const calcs = [
       'Калькулятор считает, сколько вы накопите, если откажетесь от приятных мелочей, которые незаметно съедают бюджет, и будете хранить сэкономленные деньги на депозите.',
     link: 'https://minor-expenses.vercel.app',
     icon: MinorExpensesIcon,
-    color: colors.gold,
+    color: 'color-gold',
   },
   {
     name: 'Сколько откладывать на безбедную старость',
@@ -42,7 +42,7 @@ export const calcs = [
       'Прикиньте сумму, которая позволит вам комфортно отдохнуть на пенсии, а калькулятор посчитает, сколько для этого нужно откладывать каждый месяц, учитывая инфляцию и проценты на вкладе.',
     link: 'https://comfortable-retirement.vercel.app',
     icon: ComfortableRetirementIcon,
-    color: colors.lime,
+    color: 'color-lime',
   },
   {
     name: 'Сколько вы тратите пока зарабатываете',
@@ -50,7 +50,7 @@ export const calcs = [
       'Калькулятор считает, сколько вы получаете на самом деле с учётом расходов, связанных с работой.',
     link: 'https://true-salary.vercel.app',
     icon: TrueSalaryIcon,
-    color: colors.powder,
+    color: 'color-powder',
   },
   {
     name: 'Сколько вы можете тратить в день',
@@ -58,7 +58,7 @@ export const calcs = [
       'Укажите зарплату и обязательные расходы, а калькулятор посчитает, сколько вы можете тратить каждый день, чтобы не пришлось занимать.',
     link: 'https://daily-budget.vercel.app',
     icon: DailyBudgetIcon,
-    color: colors.holly,
+    color: 'color-holly',
   },
   {
     name: 'Сколько вы могли заработать, если бы не смотрели сериалы',
@@ -66,6 +66,6 @@ export const calcs = [
       'Калькулятор считает, сколько вы могли заработать, если бы посвятили работе всё время, которое уходит на просмотр сериалов.',
     link: 'https://unearned.vercel.app/',
     icon: UnearnedIcon,
-    color: colors.gold,
+    color: 'color-gold',
   },
 ]
