@@ -13,7 +13,7 @@ const Card = ({ name, description, link, icon, color }) => {
       </div>
       <div className="mb-2 text-2xl font-bold lg:mt-4 lg:text-xl">{name}</div>
       <div className="mb-4">{description}</div>
-      <div className="">
+      <div className="mt-auto">
         <Button link={link} label="Открыть" color={color} />
       </div>
     </div>
