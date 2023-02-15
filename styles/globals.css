@@ -68,3 +68,34 @@ input[type='number'] {
     rgba(251, 207, 232, 1) 100%
   );
 }
+.color-holly-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(191, 219, 254, 1) 0%,
+    rgba(165, 243, 252, 1) 100%
+  );
+}
+
+.color-gold-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 230, 138, 1) 0%,
+    rgba(234, 179, 8, 1) 100%
+  );
+}
+
+.color-lime-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 212, 191, 1) 0%,
+    rgba(254, 240, 138, 1) 100%
+  );
+}
+
+.color-powder-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(221, 214, 254, 1) 0%,
+    rgba(251, 207, 232, 1) 100%
+  );
+}
