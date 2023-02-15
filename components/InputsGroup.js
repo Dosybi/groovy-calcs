@@ -5,7 +5,7 @@ const InputsGroup = ({ inputs, onInputChange }) => {
     onInputChange(e)
   }
   return (
-    <div className="-mx-8 mb-8 rounded-none bg-gray-100 p-6 md:mx-0 md:rounded-xl">
+    <div className="-mx-4 mb-8 rounded-none bg-gray-100 p-6 md:mx-0 md:rounded-xl">
       <h2 className="mb-3 text-xl font-bold">{inputs.title}</h2>
       {inputs.fields.map((input) => (
         <div key={input.year}>

@@ -11,6 +11,7 @@ import FinalStatistics from '../components/inflation/FinalStatistics'
 import SourcesInfo from '../components/inflation/SourcesInfo'
 
 import { products, description, inputs } from '../data/inflation'
+import Layout from '../components/Layout'
 
 const inflation = () => {
   const [salary, setSalary] = useState({
@@ -34,12 +35,11 @@ const inflation = () => {
   const onTagSelect = (activeTag) => setPurchase(activeTag)
 
   return (
-    <div>
-      <Head>
-        <title>Инфляция</title>
-        <meta name="description" content="Инфляция" />
-      </Head>
-      <main className="m-auto mb-8 max-w-2xl p-8">
+    <>
+      <Layout
+        title="Инфляция в Казахстане в донерах, айфонах и казы: узнайте как изменился ваш уровень жизни за 10 лет"
+        description="Инфляция в Казахстане в донерах, айфонах и казы: узнайте как изменился ваш уровень жизни за 10 лет"
+      >
         <Description content={description} isInner />
         <InputsGroup inputs={inputs} onInputChange={onInputChange} />
         <GeneralStatistics
@@ -58,8 +58,8 @@ const inflation = () => {
           currentSalary={salary.currentSalary}
         />
         <SourcesInfo />
-      </main>
-    </div>
+      </Layout>
+    </>
   )
 }
 

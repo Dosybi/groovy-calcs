@@ -16,8 +16,6 @@ export default function Home() {
           name="description"
           content="Калькуляторы для тех, кто не любит таблички в Экселе"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto max-w-2xl bg-white px-4 pt-4 lg:max-w-3xl">
         <Description content={description} />

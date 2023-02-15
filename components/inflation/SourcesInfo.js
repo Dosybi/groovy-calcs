@@ -13,7 +13,7 @@ const SourcesInfo = () => {
   const [isToggled, setIsToggled] = useState(false)
 
   return (
-    <div>
+    <div className="mb-8">
       <div
         className="mb-2 cursor-pointer text-blue-500 underline decoration-dashed decoration-1 underline-offset-2 hover:text-blue-800 hover:decoration-blue-800"
         onClick={() => setIsToggled(!isToggled)}

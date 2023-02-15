@@ -20,16 +20,12 @@ const SingleProduct = ({ label, setTag, activeTag }) => {
 const Products = ({ onTagSelect }) => {
   const [activeTag, setActiveTag] = useState('Хлеб')
 
-  // const setTag = (name) => {
-  //   setActiveTag(activeTag === name ? '' : name)
-  // }
-
   useEffect(() => {
     onTagSelect(activeTag)
   }, [activeTag])
 
   return (
-    <div className="scrollbar-none -mx-8 mb-8 flex flex-row flex-nowrap gap-2 overflow-x-auto px-8 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
+    <div className="scrollbar-none -mx-4 mb-8 flex flex-row flex-nowrap gap-2 overflow-x-auto px-4 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
       {products.map((tag) => {
         return (
           <SingleProduct
