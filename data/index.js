@@ -61,7 +61,7 @@ export const calcs = [
     shortName: 'Дневной бюджет',
     description:
       'Укажите зарплату и обязательные расходы, а калькулятор посчитает, сколько вы можете тратить каждый день, чтобы не пришлось занимать.',
-    link: 'https://daily-budget.vercel.app',
+    link: '/daily-budget',
     icon: DailyBudgetIcon,
     color: 'color-holly',
   },
