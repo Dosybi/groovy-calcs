@@ -70,7 +70,7 @@ export const calcs = [
     shortName: 'Расходы на сериалы',
     description:
       'Калькулятор считает, сколько вы могли заработать, если бы посвятили работе всё время, которое уходит на просмотр сериалов.',
-    link: 'https://unearned.vercel.app/',
+    link: '/unearned',
     icon: UnearnedIcon,
     color: 'color-gold',
   },
