@@ -52,7 +52,7 @@ export const calcs = [
     shortName: 'Расходы на работу',
     description:
       'Калькулятор считает, сколько вы получаете на самом деле с учётом расходов, связанных с работой.',
-    link: 'https://true-salary.vercel.app',
+    link: '/true-salary',
     icon: TrueSalaryIcon,
     color: 'color-powder',
   },
