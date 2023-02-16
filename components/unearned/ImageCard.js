@@ -38,7 +38,7 @@ const ImageCard = ({
           src={image}
           alt={title}
           priority
-          responsive
+          responsive="true"
         />
         <div
           className={`absolute bottom-4 left-3 h-6 w-6 cursor-pointer rounded-full border border-white ${
