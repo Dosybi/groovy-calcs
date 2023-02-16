@@ -28,6 +28,16 @@ input[type='number'] {
   -moz-appearance: textfield;
 }
 
+input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: #009900;
+  cursor: grab;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+}
+
 .scrollbar-none::-webkit-scrollbar {
   display: none;
 }

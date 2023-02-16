@@ -43,7 +43,7 @@ export const calcs = [
     shortName: 'Безбедная старость',
     description:
       'Прикиньте сумму, которая позволит вам комфортно отдохнуть на пенсии, а калькулятор посчитает, сколько для этого нужно откладывать каждый месяц, учитывая инфляцию и проценты на вкладе.',
-    link: 'https://comfortable-retirement.vercel.app',
+    link: '/comfortable-retirement',
     icon: ComfortableRetirementIcon,
     color: 'color-lime',
   },
