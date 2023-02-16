@@ -34,7 +34,7 @@ export const calcs = [
     shortName: 'Мелкие траты',
     description:
       'Калькулятор считает, сколько вы накопите, если откажетесь от приятных мелочей, которые незаметно съедают бюджет, и будете хранить сэкономленные деньги на депозите.',
-    link: 'https://minor-expenses.vercel.app',
+    link: '/minor-expenses',
     icon: MinorExpensesIcon,
     color: 'color-gold',
   },

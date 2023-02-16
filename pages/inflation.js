@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import { useState } from 'react'
-import Head from 'next/head'
 
 import Description from '../components/Description'
 import InputsGroup from '../components/InputsGroup'
@@ -13,7 +11,7 @@ import SourcesInfo from '../components/inflation/SourcesInfo'
 import { products, description, inputs } from '../data/inflation'
 import Layout from '../components/Layout'
 
-const inflation = () => {
+const Inflation = () => {
   const [salary, setSalary] = useState({
     previousSalary: 100000,
     currentSalary: 400000,
@@ -63,4 +61,4 @@ const inflation = () => {
   )
 }
 
-export default inflation
+export default Inflation
