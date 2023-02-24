@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from '../elements/Button'
 import SingleInput from './SingleInput'
 
 const InputsGroup = ({
@@ -26,7 +26,11 @@ const InputsGroup = ({
           />
         )
       })}
-      <Button label="+ Добавить" handleClick={() => handleAddCategory(title)} />
+      <Button
+        label="+ Добавить"
+        handleClick={() => handleAddCategory(title)}
+        isAdditional
+      />
     </div>
   )
 }

@@ -9,7 +9,7 @@ const SingleInput = ({
 }) => {
   return (
     <div
-      className="relative mt-4 flex items-center justify-between"
+      className="relative mt-4 mb-4 flex items-center justify-between"
       key={category.name}
     >
       <div className="w-full">

@@ -15,7 +15,7 @@ const Result = ({ amount }) => {
   )
 
   return (
-    <div className="sticky bottom-0 mb-10 rounded-lg bg-gray-100 p-4">
+    <div className="sticky bottom-0 mb-10 mt-8 rounded-lg bg-gray-100 p-4">
       <div className="mb-2 text-xl font-bold">
         Приятные мелочи съедают{' '}
         <span className="text-pink-700">{amount * 4.5}</span> тенге в месяц

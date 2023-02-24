@@ -5,7 +5,7 @@ import { description, expenses as data } from '../data/minor-expenses'
 import Description from '../components/Description'
 import Layout from '../components/Layout'
 import Inputs from '../components/minor-expenses/Inputs'
-import Button from '../components/minor-expenses/Button'
+import Button from '../components/elements/Button'
 import Result from '../components/minor-expenses/Result'
 
 const MinorExpenses = () => {
@@ -78,7 +78,7 @@ const MinorExpenses = () => {
         <Button
           label="+ Добавить"
           handleClick={handleAddProduct}
-          isPrimary={false}
+          isAdditional
         />
         <Result amount={totalWeeklyExpenses} />
       </Layout>
